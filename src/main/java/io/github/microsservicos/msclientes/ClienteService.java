@@ -20,7 +20,7 @@ public class ClienteService {
 	
 	@Transactional
 	public Optional<Cliente> save(String cpf) {
-		return repository.findByCpf(cliente);
+		return repository.findByCpf(cpf);
 	}
 	
 	
